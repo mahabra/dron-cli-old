@@ -1,0 +1,29 @@
+{
+  "name": "dron-cli",
+  "version": "0.0.1",
+  "description": "Dron is a global Node.js task manager for local typed tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/morulus/dron-cli"
+  },
+  "keywords": [
+    "dron"
+  ],
+  "author": "morulus <vladimirmorulus@gmail.com> (http://github.com/morulus/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morulus/dron-cli/issues"
+  },
+  "homepage": "https://github.com/morulus/dron-cli",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "file-watch": "^0.1.0"
+  },
+  "bin": {
+    "dron": "index.js"
+  }
+}
